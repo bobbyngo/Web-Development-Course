@@ -16,7 +16,7 @@
                 <fieldset>
                     <legend>PHOTO DETAILS</legend>
                     <form
-                        action="/http://kunz-pc.sce.carleton.ca/sysc4504/process.php"
+                        action="http://kunz-pc.sce.carleton.ca/sysc4504/process.php"
                         method="POST"
                     >
                         <p>
@@ -42,94 +42,124 @@
                             ></textarea>
                         </p>
 
-                        <div class="form-control">
-                            <p>
-                                <label for="continent">Continent</label>
-                                <br />
-                                <select id="continent" name="continent">
-                                    <option value="asia">Asia</option>
-                                    <option value="north-america">
-                                        North America
-                                    </option>
-                                    <option value="europe">Europe</option>
-                                    <option value="south-american">
-                                        South America
-                                    </option>
-                                    <option value="africa">Africa</option>
-                                    <option value="antarctica">
-                                        Antarctica
-                                    </option>
-                                </select>
-                            </p>
+                        <table>
+                            <tr>
+                                <td class="form-section">
+                                    <p>
+                                        <label for="continent">Continent</label>
+                                        <br />
+                                        <select id="continent" name="continent">
+                                            <option value="asia">Asia</option>
+                                            <option value="north-america">
+                                                North America
+                                            </option>
+                                            <option value="europe">
+                                                Europe
+                                            </option>
+                                            <option value="south-american">
+                                                South America
+                                            </option>
+                                            <option value="africa">
+                                                Africa
+                                            </option>
+                                            <option value="antarctica">
+                                                Antarctica
+                                            </option>
+                                        </select>
+                                    </p>
 
-                            <div>
-                                <p>Copyright?</p>
-                                <div>
-                                    <input
-                                        type="radio"
-                                        id="all-rights"
-                                        name="copyright"
-                                        value="all-rights"
-                                    />
-                                    <label for="all-rights"
-                                        >All rights reserved</label
-                                    >
-                                </div>
-                                <div>
-                                    <input
-                                        type="radio"
-                                        id="creative"
-                                        name="copyright"
-                                        value="creative"
-                                        checked
-                                    />
-                                    <label for="creative"
-                                        >Creative Commons</label
-                                    >
-                                </div>
-                            </div>
-                        </div>
+                                    <p>
+                                        <label for="country">Country</label>
+                                        <br />
+                                        <select id="country" name="country">
+                                            <option value="viet-nam">
+                                                Viet Nam
+                                            </option>
+                                            <option value="Canada">
+                                                Canada
+                                            </option>
+                                            <option value="france">
+                                                French
+                                            </option>
+                                            <option value="argentina">
+                                                Argentina
+                                            </option>
+                                            <option value="nigeria">
+                                                Nigeria
+                                            </option>
+                                            <option value="australia">
+                                                Australia
+                                            </option>
+                                        </select>
+                                    </p>
 
-                        <div class="form-control">
-                            <p>
-                                <label for="contry">Contry</label>
-                                <br />
-                                <select id="contry" name="contry">
-                                    <option value="viet-nam">Viet Nam</option>
-                                    <option value="Canada">Canada</option>
-                                    <option value="france">French</option>
-                                    <option value="argentina">Argentina</option>
-                                    <option value="nigeria">Nigeria</option>
-                                    <option value="australia">Australia</option>
-                                </select>
-                            </p>
+                                    <p>
+                                        <label for="city">City</label>
+                                        <br />
+                                        <input type="text" id="city" />
+                                    </p>
+                                </td>
 
-                            <div>
-                                <p>Creative Commons Types</p>
-                                <input
-                                    type="checkbox"
-                                    id="attribution"
-                                    name="attribution"
-                                />
-                                <label for="attribution">Attribution</label>
-                                <br />
-                                <input
-                                    type="checkbox"
-                                    id="noncemmercial"
-                                    name="noncemmercial"
-                                />
-                                <label for="noncemmercial">Noncemmercial</label>
-                                <br />
-                                <input
-                                    type="checkbox"
-                                    id="no-derivative-works"
-                                    name="no-derivative-works"
-                                />
-                                <label for="no-derivative-works"
-                                    >No Derivative Works</label
-                                >
-                            </div>
-                        </div>
+                                <td class="form-section">
+                                    <div class="form-border">
+                                        <p>Copyright?</p>
+                                        <div>
+                                            <input
+                                                type="radio"
+                                                id="all-rights"
+                                                name="copyright"
+                                                value="all-rights"
+                                            />
+                                            <label for="all-rights"
+                                                >All rights reserved</label
+                                            >
+                                        </div>
+                                        <div>
+                                            <input
+                                                type="radio"
+                                                id="creative"
+                                                name="copyright"
+                                                value="creative"
+                                                checked
+                                            />
+                                            <label for="creative"
+                                                >Creative Commons</label
+                                            >
+                                        </div>
+                                    </div>
+
+                                    <div class="form-border">
+                                        <p>Creative Commons Types</p>
+                                        <input
+                                            type="checkbox"
+                                            id="attribution"
+                                            name="attribution"
+                                        />
+                                        <label for="attribution"
+                                            >Attribution</label
+                                        >
+                                        <br />
+                                        <input
+                                            type="checkbox"
+                                            id="noncemmercial"
+                                            name="noncemmercial"
+                                        />
+                                        <label for="noncemmercial"
+                                            >Noncemmercial</label
+                                        >
+                                        <br />
+                                        <input
+                                            type="checkbox"
+                                            id="no-derivative-works"
+                                            name="no-derivative-works"
+                                        />
+                                        <label for="no-derivative-works"
+                                            >No Derivative Works</label
+                                        >
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
 
                         <p class="accept">
                             <label for="accept"
@@ -138,39 +168,66 @@
                             <input type="checkbox" id="accept" name="accept" />
                         </p>
 
-                        <p>
-                            <label for="rate">Rate this photo:</label>
-                            <br />
-                            <input
-                                type="number"
-                                min="1"
-                                max="5"
-                                name="rate"
-                                id="rate"
-                            />
-                        </p>
+                        <table>
+                            <tr>
+                                <td class="form-section">
+                                    <p>
+                                        <label for="rate"
+                                            >Rate this photo:</label
+                                        >
+                                        <br />
+                                        <input
+                                            type="number"
+                                            min="1"
+                                            max="5"
+                                            name="rate"
+                                            id="rate"
+                                        />
+                                    </p>
 
-                        <p>
-                            <label for="color">Background Color:</label>
-                            <br />
-                            <input type="color" name="black" id="color" />
-                        </p>
+                                    <p>
+                                        <label for="color"
+                                            >Color Collection:</label
+                                        >
+                                        <br />
+                                        <input
+                                            type="color"
+                                            name="black"
+                                            id="color"
+                                        />
+                                    </p>
+                                </td>
+                                <td class="form-section">
+                                    <div class="form-border">
+                                        <p>
+                                            <label for="date">Date:</label>
+                                            <br />
+                                            <input
+                                                type="date"
+                                                name="date"
+                                                id="date"
+                                            />
+                                        </p>
 
-                        <p>
-                            <label for="date">Date:</label>
-                            <br />
-                            <input type="date" name="date" id="date" />
-                        </p>
-
-                        <p>
-                            <label for="time">Time:</label>
-                            <br />
-                            <input type="time" name="time" id="time" />
-                        </p>
+                                        <p>
+                                            <label for="time"
+                                                >Time Taken:</label
+                                            >
+                                            <br />
+                                            <input
+                                                type="time"
+                                                name="time"
+                                                id="time"
+                                            />
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
 
                         <p class="accept">
-                            <button>Submit</button>
-                            <button>Clear Form</button>
+                            <button type="submit">Submit</button>
+                            <button type="reset">Clear Form</button>
                         </p>
                     </form>
                 </fieldset>

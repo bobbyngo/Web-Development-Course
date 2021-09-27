@@ -69,24 +69,60 @@ fieldset {
 }
 form p {
     margin: 0.5em 0em 0.5em 0.5em;
-    /* width: 50%; */
 }
 
-/* #title,
+#title,
+#continent,
+#country,
+#city {
+    width: 50%;
+    height: 25px;
+}
+
+#title,
 #description {
+    width: 95%;
+}
+
+table {
     width: 100%;
 }
 
-#continent,
-#contry {
+.form-section {
     width: 50%;
 }
 
-.form-control {
-    display: flex;
-} */
+.form-border {
+    border: solid 1pt #a7b2ec;
+    margin: 0px 3px 5px 0px;
+}
 
 .accept {
     background-color: #a7b2ec;
     padding: 0.2em;
+}
+
+#continent,
+#country,
+#color,
+#date,
+#time,
+button {
+    cursor: pointer;
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    background-color: rgba(238, 20, 129, 0.897);
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.8;
+    transform: scale(0.98);
 }
