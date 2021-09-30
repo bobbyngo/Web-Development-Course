@@ -24,11 +24,13 @@ footer {
     background-color: #1a237e;
     margin: 0em 4em 0.25em 4em;
 }
+
 header h1 {
     padding: 0.5rem 0 0 1.25rem;
     font-size: 2rem;
     font-weight: bold;
 }
+
 header p {
     font-size: 1rem;
     font-style: italic;
