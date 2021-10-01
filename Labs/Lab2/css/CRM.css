@@ -3,11 +3,10 @@ body {
     background-color: #eceff1;
 }
 
-article{  
+article {
     margin: 1em 4em 1em 4em;
     padding: 1em;
-} 
-
+}
 
 #mainMenu ul {
     text-align: right;
@@ -24,12 +23,12 @@ li {
 }
 
 a {
-    color: #03A9F4;
+    color: #03a9f4;
 }
 
 a:hover {
-    color: white;
-    background-color: #FF3D00;
+    color: #ede7f6;
+    background-color: #ff3d00;
 }
 
 article div {
@@ -38,7 +37,11 @@ article div {
     /* text-align: center; */
 }
 
-article div h2{
+article > div {
+    text-align: center;
+}
+
+article div h2 {
     font-size: 20px;
 }
 
@@ -49,7 +52,8 @@ article div img {
 
 h1,
 article h3 {
-    background-image: url('/Labs/Lab2/images/header-background.png');
+    /* background-image: url('/Labs/Lab2/images/header-background.png'); */
+    background-image: url(../images/header-background.png);
     color: white;
 }
 
@@ -72,16 +76,16 @@ span {
 #secondaryMenu,
 .actions {
     background-color: #607d8b;
+    padding-top: 1em;
 }
 
-article div h2{
+article div h2 {
     margin-bottom: 1em;
-} 
+}
 
 .actions ul {
     height: 35px;
 }
-
 
 section {
     background-color: white;
@@ -98,30 +102,32 @@ article p em {
     font-family: 'Roboto', sans-serif;
 }
 
-.actionEdit, .actionFlag {
+.actionEdit,
+.actionFlag {
     color: white;
     margin-left: 0.5em;
+    margin-top: 0.5px;
     padding: 5px 15px 5px 15px;
     border-radius: 5px;
 }
 
-a[href^="mailto"] {
-    background: url(/Labs/Lab2/images/email.png) no-repeat 0 3px;
+a[href^='mailto'] {
+    background: url(../images/email.png) no-repeat 0 3px;
     padding-left: 1em;
 }
 
-a[href^="tel"] {
-    background: url(/Labs/Lab2/images/call.png) no-repeat 0 3px;
+a[href^='tel'] {
+    background: url(../images/call.png) no-repeat 0 3px;
     padding-left: 1em;
 }
 
 .actionEdit {
-    background: #FF3D00 url(/Labs/Lab2/images/edit.png) no-repeat 6px 6px;
+    background: #ff3d00 url(../images/edit.png) no-repeat 6px 6px;
     padding-left: 1.5em;
 }
 
 .actionFlag {
-    background: #FF3D00 url(/Labs/Lab2/images/flag.png) no-repeat 6px 6px;
+    background: #ff3d00 url(../images/flag.png) no-repeat 6px 6px;
     padding-left: 1.5em;
 }
 
@@ -142,8 +148,3 @@ footer p {
     margin-left: 4em;
     color: white;
 }
-
-/* 
-image url path
-center
-
