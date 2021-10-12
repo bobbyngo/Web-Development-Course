@@ -9,6 +9,8 @@ var titles = [
 var quantities = [3, 1, 2];
 var prices = [80, 125, 75];
 
+//module.exports is node.js
+
 // module.exports.filenames = ['106020.jpg', '116010.jpg', '120010.jpg'];
 // module.exports.titles = [
 //     'Girl with a Pearl Earring',
