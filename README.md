@@ -33,3 +33,26 @@ Web Development Course in Carleton University
 <div align-item="center">
    <img src="Images/Lab3.png" height="100%" width="100%">
 </div>
+
+# Assignment 2
+* Using DOM JavaScript to recursively iterate the DOM and visually identify the tag names of all elements on the page
+* LEFT: SOLUTION
+* RIGHT: MY WORK
+
+When the page is first displayed, the Hide Highlightbutton is hidden
+
+<div align-item="center">
+   <img src="Images/Assignment2a.png" height="100%" width="100%">
+</div>
+<br>
+After clicking on Highlight Nodes, the page will look as follows
+
+<div align-item="center">
+   <img src="Images/Assignment2b.png" height="100%" width="100%">
+</div>   
+<br>
+Once the user clicks on the BUTTON element (next to Hide Highlight), the following alert box will pop up:
+
+<div align-item="center">
+   <img src="Images/Assignment2c.png" height="100%" width="100%">
+</div>
