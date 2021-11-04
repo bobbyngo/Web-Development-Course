@@ -56,3 +56,11 @@ Once the user clicks on the BUTTON element (next to Hide Highlight), the followi
 <div align-item="center">
    <img src="Images/Assignment2c.png" height="100%" width="100%">
 </div>
+
+# Lab 4
+* Using PHP to create dynamic functions that output the review page based on the given data
+* LEFT: SOLUTION
+* RIGHT: MY WORK
+<div align-item="center">
+   <img src="Images/Lab4.png" height="100%" width="100%">
+</div>
