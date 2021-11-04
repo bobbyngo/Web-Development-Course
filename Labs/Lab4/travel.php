@@ -36,7 +36,7 @@
                 <div class="postlist">
 
                     <!-- replace each of these rows with a function call -->
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-md-4">
 							<a href="post.php?id=1" class=""><img src="images/8710320515.jpg" alt="Ekklisia Agii Isidori Church" class="img-responsive"></a>
 						</div>
@@ -49,15 +49,19 @@
 							<p class="excerpt">At the end of the hot climb up to the top Lycabettus Hill you are greeted with the oasis that is the Ekklisia Agii Isidori church.</p>
 							<p><a href="post.php?id=1" class="btn btn-primary btn-sm">Read more</a></p>
 						</div>
-					</div>
-					<hr>
+                        
+					</div> -->
+
+                    <?php
+                    for ($x = 1; $x < 4; $x++) {
+                        outputPostRow($x);
+                    }
+                    ?>
 
                 </div>  <!-- end post list -->
             </div>  <!-- end col-mid-10 -->
         </div>  <!-- end row -->
     </main>
-    
-
         <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>

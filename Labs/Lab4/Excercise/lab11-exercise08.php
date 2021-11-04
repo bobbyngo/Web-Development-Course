@@ -1,5 +1,12 @@
 <?php
    // function definition can go here
+   function convertUnits($startVal, $startUnits, $endUnits){
+      $mlToOz = 0.033814;
+      $mlToCup = 0.00422675;
+
+      if ($endUnits == "cups") return number_format($startVal * $mlToCup, 2, '.', '');
+      else if($endUnits == "oz") return number_format($startVal * $mlToOz, 2, '.', '');
+   }
 ?>
 <html>
 <head>
@@ -17,8 +24,8 @@ for($i=50;$i<=1000;$i+=50){
    echo "<tr>";
    echo "<td>$i</td>";
    // replace the ??? with the calls to convertUnits function
-   echo "<td>???</td>";
-   echo "<td>???</td>";
+   echo "<td>" . convertUnits($i,"ml","cups"). "</td>";
+   echo "<td>" . convertUnits($i,"ml","oz"). "</td>";
    echo "</tr>";
 }
 ?>

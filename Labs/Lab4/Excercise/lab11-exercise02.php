@@ -12,6 +12,8 @@
    echo "This was output using PHP";
    echo "<br>"; //notice we must echo tags in php.
 
+   $remaining = 365 -date("z") + 1;
+   echo "There are ". $remaining . " days left in the year";
 ?>
 </body>
 </html>

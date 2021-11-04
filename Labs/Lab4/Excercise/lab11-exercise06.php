@@ -13,11 +13,18 @@
    $thumbnail = "120010.jpg";
    $title = "Portrait of Eleanor of Toledo";
    $artist = "Agnolo Bronzino";
-   $year = 1650;
+   $year = 1390;
    $width = 115;
    $height = 96;
    $medium = "Oil on Panel";
-   $era = "Post Renaissance";   
+   $era= "Post Renaissance"; 
+   if ($year < 1400){
+      $era = "International Gothic";
+   }else if ($year > 1600){
+      $era = "Baroque";
+   }else if ($year < 1530 ) {
+      $era = "Renaissance";   
+   }
 
    $dimensions = $width . "cm x " . $height . "cm";   
 ?> 

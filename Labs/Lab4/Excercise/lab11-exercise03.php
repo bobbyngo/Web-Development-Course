@@ -17,16 +17,22 @@
    $width = 115;
    $height = 96;
    $medium = "Oil on Panel";
-   $era = "Post Renaissance";     
+   $era = "Post Renaissance"; 
+   
+   $medium = "Oil on Panel";
+   $era = "Post Renaissance";  
+   $dimensions = $width . "cm x " . $height . "cm";
 ?> 
 
-<img src="images/art/thumbs/???.jpg"  />
+<img src="images/art/thumbs/<?php echo $thumbnail ?>"  />
 <div>
-   <h1> </h1>
-   <h2>By  </h2>
-   <p>
+   <h1><?php echo $title ?></h1>
+   <h2>By  <?php echo $year ?></h2>
+   <p><?php echo $dimensions ?>
    <br/>
+   <?php echo $medium ?>
    <br/>
+   <?php echo $era ?>
    <br/>
    </p>
 </div>
