@@ -1,5 +1,5 @@
 # Web-Development-Course
-Web Development Course in Carleton University 
+> SYSC 4504 at Carleton University 
 
 # Lab 1
 * Using HTML to build a static webpage
