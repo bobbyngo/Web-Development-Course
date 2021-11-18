@@ -64,3 +64,12 @@ Once the user clicks on the BUTTON element (next to Hide Highlight), the followi
 <div align-item="center">
    <img src="Images/Lab4.png" height="100%" width="100%">
 </div>
+
+# Lab 5
+* Using PHP to work with SQL MariaDB 
+* Using XAMP to create the server
+<div align-item="center">
+      <img src="Images/Lab5a.png" height="100%" width="100%">
+      <img src="Images/Lab5b.png" height="100%" width="100%">
+      <img src="Images/Lab5c.png" height="100%" width="100%">
+</div>
