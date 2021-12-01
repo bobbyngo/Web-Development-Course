@@ -120,26 +120,26 @@
         $sql = "select * from galleries order by GalleryName";  
     
         // $result = $pdo->query($sql); 
-        return runQuery($pdo, $sql, array());
+        //return runQuery($pdo, $sql, array());
     
-        // $memcache = new Memcache;
-        // $memcache->connect('localhost', 11211) 
-        //   or die ("Could not connect");
+        $memcache = new Memcache;
+        $memcache->connect('localhost', 11211) 
+          or die ("Could not connect");
  
-        // $flags = false;
-        // $get_cache = $memcache->get('allMuseums', $flags);
+        $flags = false;
+        $get_cache = $memcache->get('allMuseums', $flags);
 
-        // if (!$flags) {
-        //     $result = runQuery($pdo, $sql, array());
-        //     $memcache->set('allMuseums', $result->fetchAll(), false, 30) 
-        //     or die ("Failed to save data at the server");
-        // }
-        // else {
-        //     $result = $get_cache;
+        if (!$flags) {
+            $result = runQuery($pdo, $sql, array());
+            $memcache->set('allMuseums', $result->fetchAll(), false, 30) 
+            or die ("Failed to save data at the server");
+        }
+        else {
+            $result = $get_cache;
 
-        // }
-        // //return $result->fetchAll();
-        // return $result;
+        }
+        //return $result->fetchAll();
+        return $result;
     }
 
     function readPaintingsByID($paintingID) {
