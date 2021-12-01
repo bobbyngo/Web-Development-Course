@@ -73,3 +73,13 @@ Once the user clicks on the BUTTON element (next to Hide Highlight), the followi
       <img src="Images/Lab5b.png" height="100%" width="100%">
       <img src="Images/Lab5c.png" height="100%" width="100%">
 </div>
+
+# Assignment 3
+* Using PHP to work with big data SQL MariaDB and Memcache
+* Using XAMP to create the server which display dynamic paintings
+* User can filter the paintings based on the Artist, Museum and Shape or search for the Artist's name
+* User can remove or add their favorite painting which will store to their session
+<div align-item="center">
+      <img src="Images/Assignment3a.png" height="100%" width="100%">
+      <img src="Images/Assignment3b.png" height="100%" width="100%">
+</div>
