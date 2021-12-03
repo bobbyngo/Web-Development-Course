@@ -84,3 +84,16 @@ Once the user clicks on the BUTTON element (next to Hide Highlight), the followi
       <img src="Images/Assignment3a.png" height="100%" width="100%">
       <img src="Images/Assignment3b.png" height="100%" width="100%">
 </div>
+
+# Lab 6
+* Using PHP to work with sessions
+* Using XAMP to create the server
+* User can register for the question and then vote it
+* The user can vote that question again. The vote counts will be reset if the new question is made
+<div align-item="center">
+      <img src="Images/Lab6a.PNG" height="100%" width="100%">
+      <img src="Images/Lab6b.PNG" height="100%" width="100%">
+      <img src="Images/Lab6c.PNG" height="100%" width="100%">
+      <img src="Images/Lab6d.PNG" height="100%" width="100%">
+      <img src="Images/Lab6e.PNG" height="100%" width="100%">
+</div>
