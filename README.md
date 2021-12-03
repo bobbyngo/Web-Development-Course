@@ -75,7 +75,8 @@ Once the user clicks on the BUTTON element (next to Hide Highlight), the followi
 </div>
 
 # Assignment 3
-* Using PHP to work with big data SQL MariaDB and Memcache
+* Using PHP to work with big data SQL MariaDB
+* Backing up data using Memcache so that the app will not break when the database is edited
 * Using XAMP to create the server which display dynamic paintings
 * User can filter the paintings based on the Artist, Museum and Shape or search for the Artist's name
 * User can remove or add their favorite painting which will store to their session
